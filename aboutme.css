@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.outer{
+    width: 100%;
+    background: black;
+    color:white;
+    padding-bottom: 20px;
+    height:1050px;
+}
+#what{
+    margin-left: 600px;
+    font-size: 50px;
+}
+.outer1{
+    background-image: url('pics/5651980.jpg');
+    height: 950px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    margin-right:20px;
+}
+.photo{
+    background-image: url('pics/WhatsApp\ Image\ 2021-08-18\ at\ 7.42.28\ AM.jpeg');
+    height:900px;
+    width:340px;
+    background-size: cover;
+    float:right;
+    position:relative;
+    top:-200px;
+    margin-right:20px;
+padding-top: 10px;
+
+}
+#para{
+  padding-left: 50px; 
+  font-size: 30px; 
+}
+.skills{
+    padding-left: 50px;
+    font-size: 50px;
+}
+.home{
+    padding-left:50px;
+}
+.content_button:hover{
+    background-color: black;
+        color:whitesmoke;
+        cursor: pointer;
+}
